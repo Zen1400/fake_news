@@ -8,6 +8,11 @@ wheel>=0.29
 numpy
 pandas
 scikit-learn
+nltk
+tensorflow==2.7.0
+matplotlib
+jupyter
+seaborn
 
 # tests/linter
 black
@@ -19,7 +24,9 @@ yapf
 # API
 gcsfs
 google-cloud-storage
-mlflow
+fastapi
+pytz
+uvicorn
 s3fs
 
 # utilities
@@ -27,3 +34,9 @@ six>=1.14
 joblib
 memoized-property
 termcolor
+
+# text extraction from an image
+pytesseract
+
+# Streamlit
+Streamlit

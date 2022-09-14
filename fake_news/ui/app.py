@@ -1,4 +1,3 @@
-from email.mime import image
 import streamlit as st
 from fake_news.interface.main import pred
 import pytesseract as tess

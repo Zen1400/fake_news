@@ -7,3 +7,4 @@ raw_data/
 **/__pycache__/
 .env
 glove.twitter.27B.25d.txt
+.python-version

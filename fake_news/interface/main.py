@@ -47,7 +47,7 @@ def training() :
     print(" Initializing and compiling are done")
     print(model)
     validations_split = 0.3
-    epochs = 5
+    epochs = 1
     patience = 1
     batch_size = 32
     print("Starting the training")

@@ -20,10 +20,10 @@ def tokenizer(df : pd.DataFrame) -> pd.DataFrame :
     # initialize the tokenizer
     tokenizer = Tokenizer()
 
-    # fit on x_train
+    # fit on x
     tokenizer.fit_on_texts(df['text'])
 
-    # transform X_train and X_test
+    # transform X
     df['text'] = tokenizer.texts_to_sequences(df['text'])
     vocab_size = len(tokenizer.word_index)
 

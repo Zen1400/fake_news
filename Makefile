@@ -56,3 +56,6 @@ pypi:
 
 run_api:
 	uvicorn fake_news.api.api:app --reload
+
+streamlit:
+	-@streamlit run app.py
